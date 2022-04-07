@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="author" content="atarm" />
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0" />
+  <title></title>
+  <style type="text/css">
+    * {
+    margin: 0;
+    }
+    body{
+    font-size:17px;
+        font-family: "Microsoft YaHei";
+        background-color:#ffffff;
+        }
+        .mt2 {
+    margin-top: 16px;
+    }
+    .textinfo {
+        border: 1px solid #dadada;
+        padding: 0 10px;
+    }
+    clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden} /*所有主流浏览器都支持 :after 伪元素。*/
+    .clearfix{*+height:1%;}
+    .clearfix:after {visibility: hidden;display: block;font-size: 0;content: " ";clear: both;height: 0;}
+    .clearfix{*zoom:1;}//只针对IE6/7
+    .cont_d{box-sizing:border-box;
+    -moz-box-sizing:border-box; /* Firefox */
+    -webkit-box-sizing:border-box; /* Safari */
+    width:98%; padding:2%;}
+    .title .s_time{display:block; font-weight:normal; font-size:11px; line-height:20px; text-align:left;}
+    
+    .textinfo{border:0px;}
+    .text p img{display:block; width:100%; height:auto; padding:15px 0px;}
+    .textinfo .title{text-align:left; font-weight:normal;}
+    .textinfo .text {
+        line-height: 28px;
+        text-align: justify;
+        text-indent: 2em;
+    }
+    .infoattr {
+        border-bottom: 1px solid #dadada;
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+    }
+    .textinfo dt{float:left; margin-top:21px; width:10%; text-align:center;}
+    .textinfo dd{float:left;width:80%;}
+    /**修改文字大小 清除行内样式才可生效**/
+    /*内容*/
+    .text {font-size:###contentFontSize###px;line-height:1.75; display:block; min-height:18px; margin-bottom:5px;}
+    .text p{font-size:###contentFontSize###px;line-height:1.75; display:block; min-height:18px; margin-bottom:5px;}
+    .text img{width:100%;}
+    
+</style>
+ </head>
+ <body>
+  <script>
+    window.onload = function() {
+        alert("TJWebViewDidFinishLoadingCompletely");
+    }
+</script>
+  <div class="cont_d center clear mt1">
+   <div>
+    <!--图文部分开始-->
+    <div class="text">
+     ###content###
+    </div>
+    <!--图文部分结束-->
+   </div>
+  </div>
+ </body>
+</html>
