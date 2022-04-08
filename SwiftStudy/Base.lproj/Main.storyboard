@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="KzW-W7-KXm">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="KzW-W7-KXm">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -211,27 +211,35 @@
                                 <rect key="frame" x="0.0" y="742" width="414" height="120"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zoC-h0-4VF">
-                                        <rect key="frame" x="0.0" y="0.0" width="138" height="120"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="103.5" height="120"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="text"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="load开始"/>
                                         <connections>
-                                            <action selector="startTap" destination="77m-7K-xba" eventType="touchUpInside" id="BBD-21-nWM"/>
+                                            <action selector="startTap" destination="77m-7K-xba" eventType="touchUpInside" id="2sQ-MB-Zrr"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iI7-11-U1M">
-                                        <rect key="frame" x="138" y="0.0" width="138" height="120"/>
+                                        <rect key="frame" x="103.5" y="0.0" width="103.5" height="120"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="成功"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="隐藏"/>
                                         <connections>
-                                            <action selector="stopTap" destination="77m-7K-xba" eventType="touchUpInside" id="E7H-iM-Bqm"/>
+                                            <action selector="stopTap" destination="77m-7K-xba" eventType="touchUpInside" id="Y6U-TL-za0"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2OW-uc-Rch">
-                                        <rect key="frame" x="276" y="0.0" width="138" height="120"/>
+                                        <rect key="frame" x="207" y="0.0" width="103.5" height="120"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="gif"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="显示"/>
                                         <connections>
-                                            <action selector="gifTap" destination="77m-7K-xba" eventType="touchUpInside" id="dt3-HJ-8iA"/>
+                                            <action selector="gifTap" destination="77m-7K-xba" eventType="touchUpInside" id="1Bv-63-GTM"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hPn-hp-h0m">
+                                        <rect key="frame" x="310.5" y="0.0" width="103.5" height="120"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="文字显示"/>
+                                        <connections>
+                                            <action selector="textTap" destination="77m-7K-xba" eventType="touchUpInside" id="0kd-eh-mir"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -265,6 +273,64 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="L8h-C1-wyL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3022" y="-350"/>
+        </scene>
+        <!--Shop View Controller-->
+        <scene sceneID="iZY-k6-ui5">
+            <objects>
+                <viewController storyboardIdentifier="ShopViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BAm-vK-v4X" customClass="ShopViewController" customModule="SwiftStudy" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="j48-vG-gmS">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="ai2-zf-K7S">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pDO-jv-cQF">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="259.5"/>
+                                        <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="首页"/>
+                                        <connections>
+                                            <action selector="indexTap" destination="BAm-vK-v4X" eventType="touchUpInside" id="ax9-Q5-PHx"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Jv-GR-Vim">
+                                        <rect key="frame" x="0.0" y="279.5" width="414" height="259"/>
+                                        <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="列表"/>
+                                        <connections>
+                                            <action selector="listTap" destination="BAm-vK-v4X" eventType="touchUpInside" id="RYN-QK-cly"/>
+                                            <action selector="stopTap" destination="77m-7K-xba" eventType="touchUpInside" id="VT8-UM-lC9"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iSq-Ih-N0h">
+                                        <rect key="frame" x="0.0" y="558.5" width="414" height="259.5"/>
+                                        <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="支付"/>
+                                        <connections>
+                                            <action selector="gifTap" destination="77m-7K-xba" eventType="touchUpInside" id="HmX-Pa-3jP"/>
+                                            <action selector="payTap" destination="BAm-vK-v4X" eventType="touchUpInside" id="9DC-Fs-def"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="NH7-EN-5Vu"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ai2-zf-K7S" firstAttribute="leading" secondItem="j48-vG-gmS" secondAttribute="leading" id="4pN-2G-S8k"/>
+                            <constraint firstItem="NH7-EN-5Vu" firstAttribute="trailing" secondItem="ai2-zf-K7S" secondAttribute="trailing" id="J2w-ux-kEV"/>
+                            <constraint firstItem="NH7-EN-5Vu" firstAttribute="bottom" secondItem="ai2-zf-K7S" secondAttribute="bottom" id="l8m-F7-0WD"/>
+                            <constraint firstItem="ai2-zf-K7S" firstAttribute="top" secondItem="NH7-EN-5Vu" secondAttribute="top" id="o18-nC-v3r"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5oo-8M-FF3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3835" y="-350"/>
         </scene>
     </scenes>
     <resources>

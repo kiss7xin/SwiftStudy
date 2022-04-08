@@ -1,14 +1,24 @@
 PODS:
+  - Alamofire (5.5.0)
   - AMPopTip (4.6.1)
+  - KakaJSON (1.1.2)
   - lottie-ios (3.2.3)
+  - MJRefresh (3.7.5)
+  - Moya (15.0.0):
+    - Moya/Core (= 15.0.0)
+  - Moya/Core (15.0.0):
+    - Alamofire (~> 5.0)
   - Popover (1.3.0)
   - ProgressHUD (2.70)
-  - RxCocoa (4.5.0):
-    - RxSwift (>= 4.4.2, ~> 4.4)
-  - RxGesture (2.2.0):
-    - RxCocoa (~> 4.5)
-    - RxSwift (~> 4.5)
-  - RxSwift (4.5.0)
+  - RxCocoa (6.5.0):
+    - RxRelay (= 6.5.0)
+    - RxSwift (= 6.5.0)
+  - RxGesture (4.0.4):
+    - RxCocoa (~> 6.0)
+    - RxSwift (~> 6.0)
+  - RxRelay (6.5.0):
+    - RxSwift (= 6.5.0)
+  - RxSwift (6.5.0)
   - SnapKit (5.0.1)
   - SwifterSwift (5.2.0):
     - SwifterSwift/AppKit (= 5.2.0)
@@ -35,10 +45,20 @@ PODS:
   - SwifterSwift/StoreKit (5.2.0)
   - SwifterSwift/SwiftStdlib (5.2.0)
   - SwifterSwift/UIKit (5.2.0)
+  - Tiercel (3.2.5)
+  - TJShopSDK (0.1.0.040810):
+    - TJShopSDK/Base (= 0.1.0.040810)
+  - TJShopSDK/Base (0.1.0.040810):
+    - KakaJSON (= 1.1.2)
+    - MJRefresh
+    - Moya (= 15.0.0)
+    - SnapKit (= 5.0.1)
+    - Tiercel (~> 3.2.5)
 
 DEPENDENCIES:
   - AMPopTip (~> 4.6.1)
   - lottie-ios (~> 3.2.3)
+  - MJRefresh
   - Popover
   - ProgressHUD
   - RxCocoa
@@ -46,30 +66,53 @@ DEPENDENCIES:
   - RxSwift
   - SnapKit
   - SwifterSwift
+  - TJShopSDK (from `http://gitlab.rsdx.com/uni-app/tjshopsdk_ios.git`)
 
 SPEC REPOS:
   trunk:
+    - Alamofire
     - AMPopTip
+    - KakaJSON
     - lottie-ios
+    - MJRefresh
+    - Moya
     - Popover
     - ProgressHUD
     - RxCocoa
     - RxGesture
+    - RxRelay
     - RxSwift
     - SnapKit
     - SwifterSwift
+    - Tiercel
+
+EXTERNAL SOURCES:
+  TJShopSDK:
+    :git: http://gitlab.rsdx.com/uni-app/tjshopsdk_ios.git
+
+CHECKOUT OPTIONS:
+  TJShopSDK:
+    :commit: e582566723b2d0095d03c50e9d8bee867df301e4
+    :git: http://gitlab.rsdx.com/uni-app/tjshopsdk_ios.git
 
 SPEC CHECKSUMS:
+  Alamofire: 1c4fb5369c3fe93d2857c780d8bbe09f06f97e7c
   AMPopTip: a9384bcc42013831dcce185d8687b0abf946496b
+  KakaJSON: cc5ff50a8c1cfbb09413db8496cb709a209e6137
   lottie-ios: c058aeafa76daa4cf64d773554bccc8385d0150e
+  MJRefresh: fdf5e979eb406a0341468932d1dfc8b7f9fce961
+  Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
   Popover: 10e1d9528f81d9504df984b7b3f491292bc1822d
   ProgressHUD: e603e8b8622c47d8818b9fb38b3cfe9d3e7ca421
-  RxCocoa: cbf70265dc65a981d4ac982e513c10cf23df24a0
-  RxGesture: c1b7bf17166b0ef9d642a9510f8bac5785f18990
-  RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
+  RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
+  RxGesture: f3efb47ed2d26a8082f7b660d4a59970e275a7f8
+  RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
+  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
   SwifterSwift: 334181863c416882d97b7a60c05054d9e4d799e2
+  Tiercel: c0a73f876a72800333b15f4e7e48791f4ad21e90
+  TJShopSDK: 2bb9bbc8811429c26a6ee692a2cd613b80362cd5
 
-PODFILE CHECKSUM: f5c63744061534626202ceba1470235a8a25ff67
+PODFILE CHECKSUM: f8d84501495070391cb6abb7bea79cb4a33f46c5
 
 COCOAPODS: 1.11.3

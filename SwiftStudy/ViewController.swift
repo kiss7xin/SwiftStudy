@@ -29,7 +29,8 @@ struct DataListModel {
         DataModel(className: PopTabbarVC.self, name: "弹窗管理类", type: .storyboard),
         DataModel(className: WebViewController.self, name: "网页", type: .storyboard),
         DataModel(className: TabCardVC.self, name: "卡片视图"),
-        DataModel(className: GIFViewController.self, name: "GIF", type: .storyboard)
+        DataModel(className: GIFViewController.self, name: "GIF", type: .storyboard),
+        DataModel(className: ShopViewController.self, name: "uniapp", type: .storyboard),
         ])
 }
 

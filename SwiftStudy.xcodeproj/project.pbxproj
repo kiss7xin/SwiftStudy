@@ -22,7 +22,6 @@
 		A750F458275F2E6C004C4FAD /* PopOneVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A750F457275F2E6C004C4FAD /* PopOneVC.swift */; };
 		A750F45A275F375F004C4FAD /* NormalPopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A750F459275F375E004C4FAD /* NormalPopupView.swift */; };
 		A773149827FEE5D700145196 /* GIFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A773149727FEE5D700145196 /* GIFViewController.swift */; };
-		A773149A27FEF62E00145196 /* load.gif in Resources */ = {isa = PBXBuildFile; fileRef = A773149927FEF62E00145196 /* load.gif */; };
 		A773149C27FEF9F300145196 /* TJHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = A773149B27FEF9F300145196 /* TJHUD.swift */; };
 		A786DAF026DA37DF00F332A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A786DAEF26DA37DF00F332A1 /* AppDelegate.swift */; };
 		A786DAF226DA37DF00F332A1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A786DAF126DA37DF00F332A1 /* SceneDelegate.swift */; };
@@ -30,10 +29,12 @@
 		A786DAF726DA37DF00F332A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A786DAF526DA37DF00F332A1 /* Main.storyboard */; };
 		A786DAF926DA37E200F332A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A786DAF826DA37E200F332A1 /* Assets.xcassets */; };
 		A786DAFC26DA37E200F332A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A786DAFA26DA37E200F332A1 /* LaunchScreen.storyboard */; };
+		A7928BD8280010A5003FBEE2 /* load.gif in Resources */ = {isa = PBXBuildFile; fileRef = A7928BD7280010A5003FBEE2 /* load.gif */; };
 		A7B343D927547D8800EC6307 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B343D827547D8800EC6307 /* ImageViewController.swift */; };
 		A7B63E0A27A11955003C7CE6 /* TabCardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B63E0927A11955003C7CE6 /* TabCardVC.swift */; };
 		A7C5EE9A276B52520068F4E9 /* PopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C5EE99276B52520068F4E9 /* PopView.swift */; };
 		A7CB4A1A279E49CB00965645 /* TabCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CB4A19279E49CB00965645 /* TabCardView.swift */; };
+		A7DC66B027FFD64A002055DE /* ShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DC66AF27FFD64A002055DE /* ShopViewController.swift */; };
 		A7FBBFB7278D56E000921561 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FBBFB6278D56E000921561 /* WebViewController.swift */; };
 		A7FBBFB9278D5E3100921561 /* TJWebContent.txt in Resources */ = {isa = PBXBuildFile; fileRef = A7FBBFB8278D5E3100921561 /* TJWebContent.txt */; };
 		A7FD7CA92759E37A00C2B3AD /* PopoverController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FD7CA82759E37A00C2B3AD /* PopoverController.swift */; };
@@ -58,7 +59,6 @@
 		A750F457275F2E6C004C4FAD /* PopOneVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopOneVC.swift; sourceTree = "<group>"; };
 		A750F459275F375E004C4FAD /* NormalPopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NormalPopupView.swift; sourceTree = "<group>"; };
 		A773149727FEE5D700145196 /* GIFViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIFViewController.swift; sourceTree = "<group>"; };
-		A773149927FEF62E00145196 /* load.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = load.gif; sourceTree = "<group>"; };
 		A773149B27FEF9F300145196 /* TJHUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TJHUD.swift; sourceTree = "<group>"; };
 		A786DAEC26DA37DF00F332A1 /* SwiftStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A786DAEF26DA37DF00F332A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -68,10 +68,12 @@
 		A786DAF826DA37E200F332A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A786DAFB26DA37E200F332A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A786DAFD26DA37E200F332A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7928BD7280010A5003FBEE2 /* load.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = load.gif; sourceTree = "<group>"; };
 		A7B343D827547D8800EC6307 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 		A7B63E0927A11955003C7CE6 /* TabCardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabCardVC.swift; sourceTree = "<group>"; };
 		A7C5EE99276B52520068F4E9 /* PopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopView.swift; sourceTree = "<group>"; };
 		A7CB4A19279E49CB00965645 /* TabCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabCardView.swift; sourceTree = "<group>"; };
+		A7DC66AF27FFD64A002055DE /* ShopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopViewController.swift; sourceTree = "<group>"; };
 		A7FBBFB6278D56E000921561 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		A7FBBFB8278D5E3100921561 /* TJWebContent.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TJWebContent.txt; sourceTree = "<group>"; };
 		A7FD7CA82759E37A00C2B3AD /* PopoverController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverController.swift; sourceTree = "<group>"; };
@@ -149,7 +151,7 @@
 		A773149627FEE5B900145196 /* GIF */ = {
 			isa = PBXGroup;
 			children = (
-				A773149927FEF62E00145196 /* load.gif */,
+				A7928BD7280010A5003FBEE2 /* load.gif */,
 				A773149727FEE5D700145196 /* GIFViewController.swift */,
 				A773149B27FEF9F300145196 /* TJHUD.swift */,
 			);
@@ -177,6 +179,7 @@
 		A786DAEE26DA37DF00F332A1 /* SwiftStudy */ = {
 			isa = PBXGroup;
 			children = (
+				A7DC66AE27FFD638002055DE /* Shop */,
 				A773149627FEE5B900145196 /* GIF */,
 				A7CB4A18279E49B300965645 /* SkTabCardView */,
 				A7239D8727968DFD00958B90 /* flow_h.json */,
@@ -218,6 +221,14 @@
 			path = SkTabCardView;
 			sourceTree = "<group>";
 		};
+		A7DC66AE27FFD638002055DE /* Shop */ = {
+			isa = PBXGroup;
+			children = (
+				A7DC66AF27FFD64A002055DE /* ShopViewController.swift */,
+			);
+			path = Shop;
+			sourceTree = "<group>";
+		};
 		A7FBBFB5278D56CD00921561 /* WebView */ = {
 			isa = PBXGroup;
 			children = (
@@ -248,6 +259,7 @@
 				A786DAE926DA37DF00F332A1 /* Frameworks */,
 				A786DAEA26DA37DF00F332A1 /* Resources */,
 				B29A7A465531E98A008C3D1C /* [CP] Embed Pods Frameworks */,
+				3F6BF4E3CF5005445B8C0DD0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -302,7 +314,7 @@
 				A786DAF926DA37E200F332A1 /* Assets.xcassets in Resources */,
 				A7239D8A27968DFD00958B90 /* flow_v.json in Resources */,
 				A786DAF726DA37DF00F332A1 /* Main.storyboard in Resources */,
-				A773149A27FEF62E00145196 /* load.gif in Resources */,
+				A7928BD8280010A5003FBEE2 /* load.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,6 +341,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F6BF4E3CF5005445B8C0DD0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftStudy/Pods-SwiftStudy-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftStudy/Pods-SwiftStudy-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftStudy/Pods-SwiftStudy-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B29A7A465531E98A008C3D1C /* [CP] Embed Pods Frameworks */ = {
@@ -376,6 +405,7 @@
 				A786DAF026DA37DF00F332A1 /* AppDelegate.swift in Sources */,
 				A7B343D927547D8800EC6307 /* ImageViewController.swift in Sources */,
 				A750F44C275DDE9D004C4FAD /* ClassA.swift in Sources */,
+				A7DC66B027FFD64A002055DE /* ShopViewController.swift in Sources */,
 				A786DAF226DA37DF00F332A1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -527,6 +557,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 97X5Y4QNHC;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = SwiftStudy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -550,6 +581,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 97X5Y4QNHC;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = SwiftStudy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

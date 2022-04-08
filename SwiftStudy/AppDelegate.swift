@@ -6,14 +6,19 @@
 //
 
 import UIKit
+import TJShopSDK
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+    var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        let options = NSMutableDictionary.init(dictionary: launchOptions ?? [:])
+        options.setValue(NSNumber.init(value:true), forKey: "debug")
+        TJShopEngine.default.initSDK(ops: options,appKey: "928387499283938",appSecret: "99fdsa9fds9f8f76c6c8v7v6g")
+        
         return true
     }
 

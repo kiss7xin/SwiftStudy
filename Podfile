@@ -13,8 +13,10 @@ pod 'lottie-ios', '~> 3.2.3'
 pod 'Popover'
 pod 'AMPopTip', '~> 4.6.1'
 pod 'RxGesture'
-
 pod 'ProgressHUD'
+pod 'MJRefresh'
+
+pod 'TJShopSDK', :git => "http://gitlab.rsdx.com/uni-app/tjshopsdk_ios.git"
 
 post_install do |installer|
       installer.pods_project.targets.each do |target|
