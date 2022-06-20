@@ -21,6 +21,8 @@
 		A750F456275DEF21004C4FAD /* PopupMaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A750F455275DEF21004C4FAD /* PopupMaskView.swift */; };
 		A750F458275F2E6C004C4FAD /* PopOneVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A750F457275F2E6C004C4FAD /* PopOneVC.swift */; };
 		A750F45A275F375F004C4FAD /* NormalPopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A750F459275F375E004C4FAD /* NormalPopupView.swift */; };
+		A75F1DB22803C43F0061EE38 /* RefreshViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75F1DB12803C43F0061EE38 /* RefreshViewController.swift */; };
+		A75F1DB42803C45C0061EE38 /* RefreshComponet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75F1DB32803C45C0061EE38 /* RefreshComponet.swift */; };
 		A773149827FEE5D700145196 /* GIFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A773149727FEE5D700145196 /* GIFViewController.swift */; };
 		A773149C27FEF9F300145196 /* TJHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = A773149B27FEF9F300145196 /* TJHUD.swift */; };
 		A786DAF026DA37DF00F332A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A786DAEF26DA37DF00F332A1 /* AppDelegate.swift */; };
@@ -29,7 +31,6 @@
 		A786DAF726DA37DF00F332A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A786DAF526DA37DF00F332A1 /* Main.storyboard */; };
 		A786DAF926DA37E200F332A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A786DAF826DA37E200F332A1 /* Assets.xcassets */; };
 		A786DAFC26DA37E200F332A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A786DAFA26DA37E200F332A1 /* LaunchScreen.storyboard */; };
-		A7928BD8280010A5003FBEE2 /* load.gif in Resources */ = {isa = PBXBuildFile; fileRef = A7928BD7280010A5003FBEE2 /* load.gif */; };
 		A7B343D927547D8800EC6307 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B343D827547D8800EC6307 /* ImageViewController.swift */; };
 		A7B63E0A27A11955003C7CE6 /* TabCardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B63E0927A11955003C7CE6 /* TabCardVC.swift */; };
 		A7C5EE9A276B52520068F4E9 /* PopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C5EE99276B52520068F4E9 /* PopView.swift */; };
@@ -41,8 +42,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		190EF34C24337A82909AE6F2 /* Pods-SwiftStudy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftStudy.release.xcconfig"; path = "Target Support Files/Pods-SwiftStudy/Pods-SwiftStudy.release.xcconfig"; sourceTree = "<group>"; };
-		7EAA72546121828565EA794C /* Pods-SwiftStudy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftStudy.debug.xcconfig"; path = "Target Support Files/Pods-SwiftStudy/Pods-SwiftStudy.debug.xcconfig"; sourceTree = "<group>"; };
 		A71542212786DA45008ABA4D /* RichLabelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RichLabelVC.swift; sourceTree = "<group>"; };
 		A71C52082763450500672788 /* PopSecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopSecondVC.swift; sourceTree = "<group>"; };
 		A71C520A276345A100672788 /* PopTabbarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopTabbarVC.swift; sourceTree = "<group>"; };
@@ -58,6 +57,8 @@
 		A750F455275DEF21004C4FAD /* PopupMaskView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupMaskView.swift; sourceTree = "<group>"; };
 		A750F457275F2E6C004C4FAD /* PopOneVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopOneVC.swift; sourceTree = "<group>"; };
 		A750F459275F375E004C4FAD /* NormalPopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NormalPopupView.swift; sourceTree = "<group>"; };
+		A75F1DB12803C43F0061EE38 /* RefreshViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshViewController.swift; sourceTree = "<group>"; };
+		A75F1DB32803C45C0061EE38 /* RefreshComponet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshComponet.swift; sourceTree = "<group>"; };
 		A773149727FEE5D700145196 /* GIFViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIFViewController.swift; sourceTree = "<group>"; };
 		A773149B27FEF9F300145196 /* TJHUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TJHUD.swift; sourceTree = "<group>"; };
 		A786DAEC26DA37DF00F332A1 /* SwiftStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -68,7 +69,6 @@
 		A786DAF826DA37E200F332A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A786DAFB26DA37E200F332A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A786DAFD26DA37E200F332A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A7928BD7280010A5003FBEE2 /* load.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = load.gif; sourceTree = "<group>"; };
 		A7B343D827547D8800EC6307 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 		A7B63E0927A11955003C7CE6 /* TabCardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabCardVC.swift; sourceTree = "<group>"; };
 		A7C5EE99276B52520068F4E9 /* PopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopView.swift; sourceTree = "<group>"; };
@@ -77,7 +77,9 @@
 		A7FBBFB6278D56E000921561 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		A7FBBFB8278D5E3100921561 /* TJWebContent.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TJWebContent.txt; sourceTree = "<group>"; };
 		A7FD7CA82759E37A00C2B3AD /* PopoverController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverController.swift; sourceTree = "<group>"; };
+		AE1609B82786340248BCBB78 /* Pods-SwiftStudy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftStudy.release.xcconfig"; path = "Target Support Files/Pods-SwiftStudy/Pods-SwiftStudy.release.xcconfig"; sourceTree = "<group>"; };
 		B8D0762ED278C71F63B6072E /* Pods_SwiftStudy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftStudy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA5F7438C7E7F903B79F01E4 /* Pods-SwiftStudy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftStudy.debug.xcconfig"; path = "Target Support Files/Pods-SwiftStudy/Pods-SwiftStudy.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +97,8 @@
 		2D222610B1E89BED8A87D931 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				7EAA72546121828565EA794C /* Pods-SwiftStudy.debug.xcconfig */,
-				190EF34C24337A82909AE6F2 /* Pods-SwiftStudy.release.xcconfig */,
+				EA5F7438C7E7F903B79F01E4 /* Pods-SwiftStudy.debug.xcconfig */,
+				AE1609B82786340248BCBB78 /* Pods-SwiftStudy.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -148,10 +150,18 @@
 			path = Popup;
 			sourceTree = "<group>";
 		};
+		A75F1DB02803C4300061EE38 /* Refresh */ = {
+			isa = PBXGroup;
+			children = (
+				A75F1DB12803C43F0061EE38 /* RefreshViewController.swift */,
+				A75F1DB32803C45C0061EE38 /* RefreshComponet.swift */,
+			);
+			path = Refresh;
+			sourceTree = "<group>";
+		};
 		A773149627FEE5B900145196 /* GIF */ = {
 			isa = PBXGroup;
 			children = (
-				A7928BD7280010A5003FBEE2 /* load.gif */,
 				A773149727FEE5D700145196 /* GIFViewController.swift */,
 				A773149B27FEF9F300145196 /* TJHUD.swift */,
 			);
@@ -179,6 +189,7 @@
 		A786DAEE26DA37DF00F332A1 /* SwiftStudy */ = {
 			isa = PBXGroup;
 			children = (
+				A75F1DB02803C4300061EE38 /* Refresh */,
 				A7DC66AE27FFD638002055DE /* Shop */,
 				A773149627FEE5B900145196 /* GIF */,
 				A7CB4A18279E49B300965645 /* SkTabCardView */,
@@ -259,7 +270,7 @@
 				A786DAE926DA37DF00F332A1 /* Frameworks */,
 				A786DAEA26DA37DF00F332A1 /* Resources */,
 				B29A7A465531E98A008C3D1C /* [CP] Embed Pods Frameworks */,
-				3F6BF4E3CF5005445B8C0DD0 /* [CP] Copy Pods Resources */,
+				1D7128A0394CE853CAE21E8B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -314,7 +325,6 @@
 				A786DAF926DA37E200F332A1 /* Assets.xcassets in Resources */,
 				A7239D8A27968DFD00958B90 /* flow_v.json in Resources */,
 				A786DAF726DA37DF00F332A1 /* Main.storyboard in Resources */,
-				A7928BD8280010A5003FBEE2 /* load.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,7 +353,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		3F6BF4E3CF5005445B8C0DD0 /* [CP] Copy Pods Resources */ = {
+		1D7128A0394CE853CAE21E8B /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -388,6 +398,7 @@
 				A7FBBFB7278D56E000921561 /* WebViewController.swift in Sources */,
 				A786DAF426DA37DF00F332A1 /* ViewController.swift in Sources */,
 				A7C5EE9A276B52520068F4E9 /* PopView.swift in Sources */,
+				A75F1DB22803C43F0061EE38 /* RefreshViewController.swift in Sources */,
 				A750F456275DEF21004C4FAD /* PopupMaskView.swift in Sources */,
 				A71542222786DA45008ABA4D /* RichLabelVC.swift in Sources */,
 				A71C5FA9274E382B00803A34 /* GradientLayerController.swift in Sources */,
@@ -398,6 +409,7 @@
 				A773149827FEE5D700145196 /* GIFViewController.swift in Sources */,
 				A750F458275F2E6C004C4FAD /* PopOneVC.swift in Sources */,
 				A7FD7CA92759E37A00C2B3AD /* PopoverController.swift in Sources */,
+				A75F1DB42803C45C0061EE38 /* RefreshComponet.swift in Sources */,
 				A750F450275DED50004C4FAD /* PopupScheduler.swift in Sources */,
 				A71C5FA7274E376800803A34 /* BaseViewController.swift in Sources */,
 				A750F45A275F375F004C4FAD /* NormalPopupView.swift in Sources */,
@@ -550,7 +562,7 @@
 		};
 		A786DB0126DA37E200F332A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7EAA72546121828565EA794C /* Pods-SwiftStudy.debug.xcconfig */;
+			baseConfigurationReference = EA5F7438C7E7F903B79F01E4 /* Pods-SwiftStudy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -574,7 +586,7 @@
 		};
 		A786DB0226DA37E200F332A1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 190EF34C24337A82909AE6F2 /* Pods-SwiftStudy.release.xcconfig */;
+			baseConfigurationReference = AE1609B82786340248BCBB78 /* Pods-SwiftStudy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

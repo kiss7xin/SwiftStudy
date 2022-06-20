@@ -31,6 +31,7 @@ struct DataListModel {
         DataModel(className: TabCardVC.self, name: "卡片视图"),
         DataModel(className: GIFViewController.self, name: "GIF", type: .storyboard),
         DataModel(className: ShopViewController.self, name: "uniapp", type: .storyboard),
+        DataModel(className: RefreshViewController.self, name: "刷新加载"),
         ])
 }
 
